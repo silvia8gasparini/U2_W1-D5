@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    font-family: "Spectral";
+    margin: 0;
+    background-color: white;
+    color: black;
+    width:1280px;
+}
+
+header {
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 190, 35);
+    padding: 25px 150px;
+    border-bottom: 0.8px solid rgb(0, 0, 0);
+    font-family: "Roboto";
+}
+
+.logo img {
+    width:30%;
+}
+
+nav {
+    display: inline-flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#specialbtn {
+    background-color: black;
+    padding: 8px 16px;
+    border-radius: 20px;
+    color: white;
+    margin: -8px 0;
+}
+
+.main-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(255, 190, 35);
+    font-family: "Spectral";
+    padding: 80px 150px;
+    border-bottom: 0.8px solid black;
+    line-height: 1.5;
+}
+.main-text {
+    max-width: 500px;
+    margin:0;
+}
+
+.main-text h1 {
+    font-size: 5.5em;
+}
+
+.main-text p {
+    font-size: 1.4em;
+    max-width: 400px;
+    text-align: left;
+}
+
+#start-btn {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 8px 40px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.artworkM {
+    display: inline-flex;
+    margin: -98px;
+    width: 40%;
+}
+
+.trend-container {
+    width: 100%;
+    font-family: "Roboto";
+    padding: 30px 150px;
+    border-bottom: solid 0.8px grey;
+}
+
+.trend-title {
+    text-align: start;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.trend-articles {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.article {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px;   
+    width: 380px;
+}
+
+.article-number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ddd;
+    margin-right: 10px;
+  }
+
+.article-content {
+    flex-grow: 1;
+    line-height: 1.8;
+  }
+
+.article-content img {
+    width:20px;
+    height: 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+
+.author {
+    font-size: 16px;
+    display: inline-block;
+  }
+
+.article-title {
+    font-weight: bold;
+    margin: 5px 0;
+  }
+
+.data {
+    font-size: 12px;
+    color: #888;
+  }
+
+.main-article-container {
+    display: flex;
+    width: 100%;
+    padding: 30px 150px;
+    gap: 80px;
+    margin-top: 50px;
+  }
+
+.main-article-content {
+    flex: 2;
+  }
+
+.sidebar { 
+    width: 400px;
+    line-height: 1.8;
+    font-family: "Roboto";
+  }
+
+.mainarticle {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    font-family: "Roboto";
+    line-height: 1.7;
+  }
+
+.main-logo {
+    width:20px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.main-data a {
+    background-color: rgb(237, 237, 237);
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(140, 144, 146);
+    padding: 3px 8px;
+
+}
+
+.main-img {
+    width: 35%;
+  }
+
+.article-text {
+    flex: 1;
+    margin-right: 15px;
+    color: rgb(161, 166, 169)
+  }
+
+.main-author {
+    font-size: 14px;
+    color: black;
+  }
+
+.main-article-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+    color: black;
+  }
+
+.main-data {
+    font-size: 12px;
+    color: #777;
+  }
+
+.bookmark {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+.sidebar h3 {
+    font-weight: bold;
+    font-family:"Roboto"; 
+    font-size: 14px;
+    }
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgb(215, 215, 215);
+  }
+  
+.tag {
+    background-color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: 0.2px solid lightgrey;
+    color:rgb(172, 172, 172)
+  }
+
+.links {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+.links a {
+    text-decoration: none;
+    color: rgb(172, 172, 172);
+    margin-right: 10px;
+  }
