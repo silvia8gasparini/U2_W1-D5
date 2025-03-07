@@ -63,20 +63,22 @@ nav a {
 }
 
 .main-text p {
-    font-size: 1.4em;
+    font-size: 22px;
     max-width: 400px;
     text-align: left;
+    font-family: "Roboto";
 }
 
 #start-btn {
     display: inline-block;
     margin-top: 40px;
     padding: 8px 40px;
-    font-size: 16px;
+    font-size: 20px;
     background-color: black;
     color: white;
     border-radius: 30px;
     text-decoration: none;
+    font-family: "Roboto";
 }
 
 .artworkM {
@@ -96,6 +98,13 @@ nav a {
     text-align: start;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 12px;
+    
+}
+
+.trend-title img {
+  margin-right: 10px;
+  margin-bottom: -8px;
 }
 
 .trend-articles {
@@ -145,7 +154,7 @@ nav a {
 
 .data {
     font-size: 12px;
-    color: #888;
+    color: rgb(140, 144, 146);
   }
 
 .main-article-container {
@@ -172,7 +181,7 @@ nav a {
     margin-bottom: 20px;
     padding-bottom: 20px;
     font-family: "Roboto";
-    line-height: 1.7;
+    line-height: 1.3;
   }
 
 .main-logo {
@@ -186,18 +195,20 @@ nav a {
     border-radius: 10px;
     text-decoration: none;
     color: rgb(140, 144, 146);
-    padding: 3px 8px;
-
+    padding: 4px 8px;
 }
 
 .main-img {
-    width: 35%;
+    width: 30%;
+    height: 25%;
+    margin-top: 10px;
   }
 
 .article-text {
     flex: 1;
-    margin-right: 15px;
-    color: rgb(161, 166, 169)
+    margin-right: 20px;;
+    color: rgb(161, 166, 169);
+    font-size: 18px;;
   }
 
 .main-author {
@@ -206,7 +217,7 @@ nav a {
   }
 
 .main-article-title {
-    font-size: 18px;
+    font-size: 25px;
     font-weight: bold;
     margin: 5px 0;
     color: black;
@@ -215,6 +226,7 @@ nav a {
 .main-data {
     font-size: 12px;
     color: #777;
+    margin-top: 8px;
   }
 
 .bookmark {
@@ -257,3 +269,9 @@ nav a {
     color: rgb(172, 172, 172);
     margin-right: 10px;
   }
+
+.star {
+    width: 3%;
+    margin-left: 3px;
+    margin-bottom: -3px;
+}
